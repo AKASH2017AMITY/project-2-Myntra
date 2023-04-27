@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+.container {
+    position: sticky;
+    top:0;
+    background-color: white;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.flex {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+
+}
+
+.left img {
+    width: 95px;
+    height: 55px;
+    margin: 10px 40px 10px 40px;
+
+}
+
+
+
+
+li {
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 30px 25px 30px 5px;
+    font-size: medium;
+
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+
+
+}
+
+.searchBar {
+    height: 27px;
+    width: 380px;
+    margin-right: 40px;
+    padding-left: 12px;
+}
+
+.profile {
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 30px 25px 30px 5px;
+    font-size: medium;
+}
+
+.wishlist {
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 30px 25px 30px 5px;
+    font-size: medium;
+}
+
+.bag {
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 30px 25px 30px 5px;
+    font-size: medium;
+}
+
+.section1 {
+    background-color: #ebebeb;
+   
+   
+}
+
+.homeImg {
+    padding: 0 48px;
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.mid-section {
+    width: 100%;
+    margin: 25px 0 20px 0;
+}
+
+.last-section {
+    width: 100%;
+    margin: 25px 0 16px 0;
+    
+}
+
+.item-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ebebeb;
+}
+
+.item-img {
+    margin: 17px;
+    width: 12%;
+    border-radius: 18px;
+
+}
+
+.footer {
+    padding: 25px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
